@@ -1,0 +1,195 @@
+html, body {
+  height: 100%;
+}
+body {
+  padding: 50px 0 0 0;
+}
+
+.page-header {
+  color: #bdc3c7;
+}
+
+.lead {
+  color: #7f8c8d;
+}
+
+/* START NAV */ 
+
+.navmenu {
+  padding-top: 50px;
+}
+
+.navbar {
+  display: block;
+  text-align: center;
+}
+.navbar-brand {
+  display: inline-block;
+  float: none;
+}
+.navbar-toggle {
+  position: absolute;
+  float: left;
+  margin-left: 15px;
+}
+
+.nav-pills{
+text-align: center;
+padding-bottom: 75%;
+}
+
+
+.container {
+  max-width: 100%;
+}
+
+.img-circle {
+  max-width: 90%;
+  height: auto;
+  padding-top: 10%;
+}
+
+.fa-user {
+  color: #3498db;
+}
+
+.fa-clock-o {
+  color: #2ecc71;
+}
+
+.fa-graduation-cap {
+  color: #e67e22;
+}
+
+.fa-tasks {
+  color: #9b59b6;
+}
+
+.fa-tag {
+  color: #e74c3c;
+}
+
+@media (min-width: 1px) {
+  .navbar-toggle {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0 0 0 300px;
+  }
+  .navmenu {
+    padding-top: 0;
+  }
+  .navbar {
+    display: none !important; /* IE8 fix */
+  }
+}
+
+/* END NAV */
+
+/* BEGIN ABOUT */
+
+.about {
+  height: 720px;
+}
+
+.lead {
+  padding-top: 25px;
+}
+
+.fa-envelope {
+  color: #3498db;
+}
+
+#email {
+  font-size: 16px;
+}
+
+.fa-home {
+  color: #3498db;
+}
+
+#city {
+  font-size: 16px;
+}
+
+.fa-twitter-square {
+  color: #3498db;
+}
+
+#twitter {
+  font-size: 16px;
+}
+
+#aboutblock {
+  margin-top: 100px;
+  border-color: #3498db;  
+}
+
+
+/* END ABOUT */
+
+/* BEGIN EXPERIENCE */
+
+.fa-suitcase {
+  color: #2ecc71;
+}
+
+.fa-chevron-right {
+  color: #2ecc71;
+}
+
+.fa-map-marker {
+  color: #2ecc71;
+}
+
+.fa-plus {
+  color: #2ecc71;
+}
+
+#experience {
+  border-color: #2ecc71;
+}
+/* END EXPERIENCE */
+
+/* BEGIN EDUCATION */
+
+.section-education {
+  height: 360px;
+}
+
+.logo {
+  margin-top: 25px;
+}
+
+#vols {
+  color: #e67e22;
+}
+/* END EDUCATION */ 
+
+/* BEGIN SKILLS */
+.section-skills {
+  height: 360px;
+}
+
+/* END SKILLS */
+
+/* BEGIN INTERESTS */
+
+.section-interests {
+  height: 360px;
+}
+
+.interests {
+  display: inline;
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+} 
+
+
+/* END INTERESTS */
+
